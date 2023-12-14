@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<head>
+    <script src="map.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#222222">
+    <meta name="msapplication-TileColor" content="#222222">
+    <meta name="theme-color" content="#222222">
+    <title>SCP-SL Map</title>
+    <style>
+        @font-face {
+            font-family: VCR-OSD-Mono;
+            src: url("VCR_OSD_MONO_1.001.ttf") format('truetype');
+        }
+
+        html, body {
+            margin: 0 !important;
+            padding: 0 !important;
+            width: 100%;
+            height: 100%;
+        }
+
+        body {
+            background-color: black;
+            color: white;
+            font-family: VCR-OSD-Mono !important;
+            font-size: 5vw;
+        }
+
+        canvas {
+            image-rendering: optimizeSpeed; /* Older versions of FF */
+            image-rendering: -moz-crisp-edges; /* FF 6.0+ */
+            image-rendering: -webkit-optimize-contrast; /* Webkit (non standard naming) */
+            image-rendering: -o-crisp-edges; /* OS X & Windows Opera (12.02+) */
+            image-rendering: crisp-edges; /* Possible future browsers. */
+            -ms-interpolation-mode: nearest-neighbor; /* IE (non standard naming) */
+        }
+
+        #actions {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            display: grid;
+            grid-template-columns: 30% 70%;
+            grid-template-rows: 50% 50%;
+        }
+
+        button {
+            background-color: black;
+            font-family: VCR-OSD-Mono;
+            font-size: 4vw;
+            color: white;
+            border: 2px white;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <div id="actions">
+        <button onclick="takeAction('1');">LCZ</button>
+        <button onclick="takeAction('2');">HCZ&nbsp;&amp;&nbsp;EZ</button>
+        <button onclick="takeAction('3');">SZ</button>
+        <button onclick="takeAction('d');">DEBUG</button>
+        </table>
+</body>

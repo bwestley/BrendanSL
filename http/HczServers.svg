@@ -1,0 +1,40 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="206" height="206" viewBox="-10 -10 226 226">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-miterlimit: 10;
+        stroke-width: 6px;
+      }
+
+      .cls-2 {
+        fill: #006837;
+        stroke: #006837;
+      }
+
+      .cls-3 {
+        fill: lime;
+        stroke: lime;
+      }
+    </style>
+  </defs>
+  <polyline class="cls-1" points="0 84.99 0 0 206 0 206 85.83"/>
+  <polyline class="cls-1" points="206 120.17 206 206 0 206 0 137.33"/>
+  <line class="cls-1" x1="34.21" y1="206" x2="34.33" y2="120.17"/>
+  <polyline class="cls-1" points="206 34.33 34.33 34.33 34.33 120.17 17.17 137.33 0 137.33 0 120.17"/>
+  <line class="cls-1" x1="34.33" y1="68.67" x2="171.67" y2="68.67"/>
+  <rect class="cls-2" x="85.83" y="137.33" width="77.25" height="17.17"/>
+  <rect class="cls-3" x="145.92" y="120.17" width="17.17" height="42.92"/>
+  <rect class="cls-2" x="42.92" y="103" width="17.17" height="94.42"/>
+  <rect class="cls-3" x="120.17" y="120.17" width="17.17" height="42.92"/>
+  <rect class="cls-3" x="60.08" y="120.17" width="17.17" height="42.92"/>
+  <rect class="cls-3" x="42.92" y="77.25" width="17.17" height="8.58"/>
+  <rect class="cls-2" x="188.83" y="8.58" width="8.58" height="17.17"/>
+  <rect class="cls-2" x="111.58" y="42.92" width="8.58" height="17.17"/>
+  <rect class="cls-2" x="85.83" y="94.42" width="77.25" height="17.17"/>
+  <rect class="cls-2" x="180.25" y="42.92" width="17.17" height="154.5"/>
+</svg>
